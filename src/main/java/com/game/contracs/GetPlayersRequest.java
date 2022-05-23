@@ -1,7 +1,6 @@
 package com.game.contracs;
 
 import com.game.controller.PlayerOrder;
-import org.springframework.validation.annotation.Validated;
 
 
 public class GetPlayersRequest extends PlayerFilters{

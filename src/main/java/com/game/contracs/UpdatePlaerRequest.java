@@ -2,11 +2,7 @@ package com.game.contracs;
 
 import com.game.entity.Profession;
 import com.game.entity.Race;
-import org.springframework.validation.annotation.Validated;
 
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.Size;
 
 
 public class UpdatePlaerRequest {
