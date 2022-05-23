@@ -5,28 +5,28 @@ import com.game.entity.Race;
 
 
 
-import javax.validation.constraints.*;
+
 
 
 public class CreatPlayerRequest {
     //@Size(min = 1, max = 12)
-    @NotBlank(message = "имя обязательно")
+    //@NotBlank(message = "имя обязательно")
     private String name;
     //@Size(min = 1, max = 30)
-    @NotBlank(message = "титул обязателен")
+    //@NotBlank(message = "титул обязателен")
     private String title;
-    @NotNull(message = "раса обязательна")
+    //@NotNull(message = "раса обязательна")
     private Race race;
-    @NotNull(message = "профессия обязательна")
+    //@NotNull(message = "профессия обязательна")
     private Profession profession;
     private Boolean banned = false;
     //@Min(946684800L)//01,01,2000
     //@Max(32535215999L)//31.12.3000
-    @NotNull(message = "день рождения обязателен")
+    //@NotNull(message = "день рождения обязателен")
     private Long birthday;
     //@Max(10000000)
     //@Min(0)
-    @NotNull(message = "опыт обязателен")
+    //@NotNull(message = "опыт обязателен")
     private Integer experience;
 
     public String getName() {
